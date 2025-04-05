@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join Us - LegalSetu</title>
+  <link rel="stylesheet" href="join-us.css">
+</head>
+<body>
+  <h1 class="title">Join Us - LegalSetu</h1>
+  <div class="container">
+    <!-- Client Card -->
+    <div class="card" id="clientCard">
+      <div class="inner-card">
+        <div class="front" onclick="flipCard('clientCard')">
+          Join as Client
+        </div>
+        <div class="back">
+          <h3>Sign Up as Client</h3>
+          <form id="clientForm">
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="password" name="password" placeholder="Password" required />
+            <button type="submit">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lawyer Card -->
+    <div class="card" id="lawyerCard">
+      <div class="inner-card">
+        <div class="front" onclick="flipCard('lawyerCard')">
+          Join as Lawyer
+        </div>
+        <div class="back">
+          <h3>Sign Up as Lawyer</h3>
+          <form id="lawyerForm">
+            <input type="text" name="name" placeholder="Full Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="password" name="password" placeholder="Password" required />
+            <select name="speciality" required>
+              <option value="">Select Speciality</option>
+              <option value="Criminal">Criminal</option>
+              <option value="Civil">Civil</option>
+              <option value="Corporate">Corporate</option>
+            </select>
+            <button type="submit">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="join-us.js"></script>
+</body>
+</html>

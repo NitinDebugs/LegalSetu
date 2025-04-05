@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lawyers | LegalSetu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #0f0c29, #100495, #24243e);
+      color: #fff;
+    }
+
+    .lawyers-section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .lawyers-section h2 {
+      font-size: 2.5em;
+      margin-bottom: 40px;
+      color: #f2f2f2;
+      letter-spacing: 1px;
+    }
+
+    .lawyer-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .lawyer-card {
+      background: rgba(255, 255, 255, 0.07);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(6px);
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .lawyer-card:hover {
+      transform: translateY(-8px);
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    .lawyer-card h3 {
+      font-size: 1.3em;
+      margin-bottom: 10px;
+      color: #ffdd57;
+    }
+
+    .lawyer-card p {
+      font-size: 0.95em;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="lawyers-section">
+    <h2>Types of Lawyers</h2>
+    <div class="lawyer-cards">
+      <div class="lawyer-card">
+        <h3>Criminal Lawyer</h3>
+        <p>Handles criminal offenses, defense, and prosecution cases.</p>
+      </div>
+      <div class="lawyer-card">
+        <h3>Civil Lawyer</h3>
+        <p>Deals with property disputes, contracts, and civil litigation.</p>
+      </div>
+      <div class="lawyer-card">
+        <h3>Family Lawyer</h3>
+        <p>Handles divorce, custody, marriage disputes, and more.</p>
+      </div>
+      <div class="lawyer-card">
+        <h3>Corporate Lawyer</h3>
+        <p>Manages business contracts, mergers, and legal compliance.</p>
+      </div>
+      <div class="lawyer-card">
+        <h3>Cyber Lawyer</h3>
+        <p>Specializes in cybercrimes, data privacy, and IT laws.</p>
+      </div>
+      <div class="lawyer-card">
+        <h3>IPR Lawyer</h3>
+        <p>Protects copyrights, patents, and trademarks.</p>
+      </div>
+      <div class="lawyer-card">
+        <h3>Constitutional Lawyer</h3>
+        <p>Focuses on constitutional rights and governance.</p>
+      </div>
+      <div class="lawyer-card">
+        <h3>Tax Lawyer</h3>
+        <p>Helps with tax disputes, returns, and compliance.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
